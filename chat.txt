@@ -1,3 +1,13 @@
-Hello
-hello  rajan rahul
-Hello Every One
+Approach:
+Represent the cities and roads as an undirected graph.
+Perform a Depth-First Search (DFS) starting from city 0.
+Keep track of whether the special ticket for odd-numbered cities has been used.
+At each step, if the city is odd and the ticket is already used, skip that path.
+Return the maximum path length from all possible paths.
+
+
+
+Time Complexity:
+O(N) – Building the graph and DFS traversal both take linear time.
+Space Complexity:
+O(N) – Additional space for the graph adjacency list and recursion stack in the worst case.
